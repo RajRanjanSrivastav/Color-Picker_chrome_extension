@@ -1,0 +1,52 @@
+body {
+  width: 220px;
+  height: 100px;
+}
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.head {
+  font-size: 2rem;
+  text-shadow: 5px 6px 11px black;
+}
+.pickerbtn {
+  border: none;
+  color: white;
+  margin: 1rem auto;
+  width: 50%;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  background-color: rgb(6, 6, 6);
+  box-shadow: -6px 5px 9px rgba(36, 34, 34, 0.45),
+    5px 5px 9px rgba(25, 26, 27, 0.3);
+  cursor: pointer;
+}
+.pickerbtn:hover {
+  background-color: rgb(237, 99, 48);
+}
+
+.sectedColor {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.colorGrid {
+  display: inline-block;
+  width: 40%;
+  height: 30px;
+  margin: 1rem;
+}
+
+.colorValue {
+  position: absolute;
+  margin-left: 6.2rem;
+  font-size: 1.2rem;
+  width: 50%;
+  height: 30px;
+  font-weight: 600; 
+  text-shadow: 5px 6px 11px black;
+}
